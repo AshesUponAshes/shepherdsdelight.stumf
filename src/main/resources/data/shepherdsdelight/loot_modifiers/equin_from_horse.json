@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/horse"
+    }
+  ],
+  "addition": "shepherdsdelight:raw_equin",
+  "type": "shepherdsdelight:equin_from_horse"
+}

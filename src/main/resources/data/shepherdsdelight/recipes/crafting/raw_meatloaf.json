@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "wMw",
+    " w "
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:raw_meat"
+    },
+    "M": {
+      "tag": "shepherdsdelight:meatloaf_bases"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:raw_meatloaf"
+  }
+}

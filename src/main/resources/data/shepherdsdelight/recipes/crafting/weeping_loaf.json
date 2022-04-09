@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:weeping_vines_plant"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:weeping_loaf"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "shepherdsdelight:raw_charque",
+    "shepherdsdelight:raw_equin",
+    "minecraft:porkchop",
+    "minecraft:chicken",
+    "minecraft:beef",
+    "minecraft:mutton",
+    "minecraft:rabbit"
+  ]
+}

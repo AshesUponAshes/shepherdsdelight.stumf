@@ -1,0 +1,10 @@
+{
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:entities/llama"
+    }
+  ],
+  "addition": "shepherdsdelight:raw_charque",
+  "type": "shepherdsdelight:charque_from_llama"
+}

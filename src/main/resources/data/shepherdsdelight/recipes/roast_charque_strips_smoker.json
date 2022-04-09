@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepherdsdelight:raw_charque_strips"
+  },
+  "result": "shepherdsdelight:roast_charque_strips",
+  "experience": 0.35,
+  "cookingtime": 100
+}
