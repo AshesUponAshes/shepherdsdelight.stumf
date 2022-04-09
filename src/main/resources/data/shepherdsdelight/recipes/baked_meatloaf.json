@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepherdsdelight:raw_meatloaf"
+  },
+  "result": "shepherdsdelight:cooked_meatloaf",
+  "experience": 0.35,
+  "cookingtime": 100
+}
