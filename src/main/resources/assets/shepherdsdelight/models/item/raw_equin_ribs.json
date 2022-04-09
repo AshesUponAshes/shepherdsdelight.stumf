@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+      "layer0": "shepherdsdelight:item/raw_equin_ribs"
+  }
+}
