@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:raw_goat_leg"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "minecraft:mutton",
+      "count": 2
+    },
+    {
+      "item": "minecraft:bone"
+    }
+  ]
+}

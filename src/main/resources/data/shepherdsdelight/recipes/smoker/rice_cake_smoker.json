@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "farmersdelight:rice"
+  },
+  "result": "shepherdsdelight:rice_cake",
+  "experience": 0.35,
+  "cookingtime": 100
+}

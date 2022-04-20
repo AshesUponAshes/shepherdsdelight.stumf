@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Mww",
+    "ww "
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:grain"
+    },
+    "M": {
+      "tag": "forge:grain_agent"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:raw_pasta",
+    "count": 2
+  }
+}

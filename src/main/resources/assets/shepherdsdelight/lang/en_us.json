@@ -12,5 +12,22 @@
   "item.shepherdsdelight.raw_meatloaf": "Raw Meatloaf",
   "item.shepherdsdelight.cooked_meatloaf": "Smoked Meatloaf",
   "item.shepherdsdelight.meat_sauce": "Meat Sauce",
-  "item.shepherdsdelight.shroomlight_sauce": "Shroomlight Sauce"
+  "item.shepherdsdelight.shroomlight_sauce": "Shroomlight Sauce",
+  "item.shepherdsdelight.cod_sushi_wrap": "Stuffed Kelp Wrap",
+  "item.shepherdsdelight.cod_sushi_roll": "Stuffed Kelp Roll",
+  "item.shepherdsdelight.shroomlight_nuggets": "Shroomlight Fried Nuggets",
+  "item.shepherdsdelight.raw_goat_leg": "Leg of Goat",
+  "item.shepherdsdelight.equin_steak": "Equin Steak",
+  "item.shepherdsdelight.equin_steak_chunk": "Equin Steak Chunk",
+  "item.shepherdsdelight.smoked_ribs": "Smoked Equine Ribs",
+  "item.shepherdsdelight.smoked_goat_leg": "Smoked Leg of Goat",
+  "item.shepherdsdelight.rice_cake": "Rice Cake",
+  "item.shepherdsdelight.saucy_sausage": "Saucy Sausage on a Stick",
+  "item.shepherdsdelight.sausage_stew": "Sausage Stew",
+  "item.shepherdsdelight.sausage_warts_pasta": "Warts with Sausage Bites",
+  "item.shepherdsdelight.hoglin_sandwich_wrap": "Stuffed Hoglin Sandwich",
+  "item.shepherdsdelight.salmon_sushi_wrap": "Salmon Wrap",
+
+  "itemGroup.shepherdstab": "Shepherd's Delight"
+
 }

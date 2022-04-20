@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Mw",
+    "BAA"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:cod"
+    },
+    "M": {
+      "item": "farmersdelight:cooked_rice"
+    },
+    "B": {
+      "item": "shepherdsdelight:meat_sauce"
+    },
+    "A": {
+      "item": "minecraft:dried_kelp"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:cod_sushi_wrap"
+  }
+}

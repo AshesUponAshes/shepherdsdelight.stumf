@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:meat_sauce"
+    },
+    {
+      "item": "farmersdelight:tomato_sauce"
+    },
+    {
+      "item": "shepherdsdelight:sausage"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:sausage_stew"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

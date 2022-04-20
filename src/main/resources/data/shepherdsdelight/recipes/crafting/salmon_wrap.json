@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Mw",
+    "BAA"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:salmon"
+    },
+    "M": {
+      "item": "minecraft:dried_kelp"
+    },
+    "B": {
+      "item": "farmersdelight:cabbage_seeds"
+    },
+    "A": {
+      "item": "farmersdelight:cooked_rice"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:salmon_sushi_wrap"
+  }
+}

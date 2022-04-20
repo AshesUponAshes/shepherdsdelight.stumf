@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    {
+      "tag": "forge:raw_meat"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:shroomlight_nuggets"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

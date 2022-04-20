@@ -28,25 +28,11 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
-            "type": "minecraft:donkey"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:horse"
-          }
-        },
-        {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "type": "minecraft:mule"
+            "type": "minecraft:goat"
           }
         }
       ]
     }
   ],
-  "item": "shepherdsdelight:raw_equin_ribs"
+  "item": "shepherdsdelight:raw_goat_leg"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Mw",
+    "w "
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:grain"
+    },
+    "M": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:raw_pasta"
+  }
+}

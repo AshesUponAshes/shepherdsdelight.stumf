@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Mw",
+    "AB"
+  ],
+  "key": {
+    "w": {
+      "tag": "forge:hoglin_meat"
+    },
+    "M": {
+      "item": "minecraft:nether_wart"
+    },
+    "B": {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    "A": {
+      "item": "shepherdsdelight:weeping_loaf"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:hoglin_sandwich_wrap"
+  }
+}

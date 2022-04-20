@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:salmon_sushi_wrap"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "shepherdsdelight:salmon_sushi_roll",
+      "count": 3
+    }
+  ]
+}
