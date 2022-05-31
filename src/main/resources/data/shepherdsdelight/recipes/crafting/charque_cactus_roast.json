@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_llama"
+    },
+    {
+      "tag": "forge:cooked_llama"
+    },
+    {
+      "item": "shepherdsdelight:meat_sauce"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:charque_cactus_roast"
+  }
+}

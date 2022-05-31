@@ -1,0 +1,10 @@
+{
+  "parent": "farmersdelight:block/pie_slice2",
+  "textures": {
+    "particle": "shepherdsdelight:block/shroomlight_cheesecake_top",
+    "bottom": "farmersdelight:block/pie_bottom",
+    "inner": "shepherdsdelight:block/shroomlight_cheesecake_inner",
+    "side": "farmersdelight:block/pie_side",
+    "top": "shepherdsdelight:block/shroomlight_cheesecake_top"
+  }
+}

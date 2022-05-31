@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "item": "farmersdelight:cooked_rice"
+    },
+    {
+      "tag": "forge:cooked_fishes/cod"
+    },
+    {
+      "item": "farmersdelight:cabbage_seeds"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:cod_sushi_wrap"
+  }
+}

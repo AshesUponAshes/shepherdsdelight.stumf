@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:steaks"
+    },
+    {
+      "item": "shepherdsdelight:meat_sauce"
+    },
+    {
+      "item": "shepherdsdelight:smoked_sausage"
+    },
+    {
+      "item": "shepherdsdelight:smoked_sausage"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:steak_platter"
+  }
+}

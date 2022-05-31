@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "shepherdsdelight:raw_equin_chunk"
+  },
+  "result": "shepherdsdelight:equin_steak_chunk",
+  "experience": 0.35,
+  "cookingtime": 200
+}

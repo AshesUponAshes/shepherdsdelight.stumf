@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cooked_beef",
+    "shepherdsdelight:equin_steak",
+    "shepherdsdelight:equin_steak_chunk"
+  ]
+}

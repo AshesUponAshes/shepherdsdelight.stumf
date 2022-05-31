@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "shepherdsdelight:item/kelp_wrap"
+    "layer0": "shepherdsdelight:item/cod_sushi_wrap"
   }
 }

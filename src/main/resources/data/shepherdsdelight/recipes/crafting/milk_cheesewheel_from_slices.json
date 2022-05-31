@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "shepherdsdelight:milk_cheese_slice"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:milk_cheese"
+  }
+}

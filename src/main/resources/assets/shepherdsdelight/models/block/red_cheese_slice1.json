@@ -1,0 +1,9 @@
+{
+  "parent": "shepherdsdelight:block/cheesewheel_slice1",
+  "textures": {
+    "particle": "shepherdsdelight:block/red_cheese_top",
+    "inner": "shepherdsdelight:block/red_cheese_inner",
+    "side": "shepherdsdelight:block/red_cheese_side",
+    "top": "shepherdsdelight:block/red_cheese_top"
+  }
+}

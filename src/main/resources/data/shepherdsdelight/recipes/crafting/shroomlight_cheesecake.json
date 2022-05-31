@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "DDD",
+    "CBC"
+  ],
+  "key": {
+    "A": {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    "B": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "C": {
+      "item": "shepherdsdelight:red_cheese_slice"
+    },
+    "D": {
+      "tag": "forge:nether_fungi"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:shroomlight_cheesecake"
+  }
+}

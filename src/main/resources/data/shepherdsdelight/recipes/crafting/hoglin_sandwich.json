@@ -1,23 +1,25 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "Mw",
-    "AB"
-  ],
-  "key": {
-    "w": {
-      "tag": "forge:hoglin_meat"
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:weeping_loaf"
     },
-    "M": {
+    {
+      "item": "shepherdsdelight:molten_cheese"
+    },
+    {
+      "item": "shepherdsdelight:red_cheese_slice"
+    },
+    {
       "item": "minecraft:nether_wart"
     },
-    "B": {
-      "item": "shepherdsdelight:shroomlight_sauce"
+    {
+      "tag": "forge:raw_pork"
     },
-    "A": {
-      "item": "shepherdsdelight:weeping_loaf"
+    {
+      "item": "shepherdsdelight:shroomlight_sauce"
     }
-  },
+  ],
   "result": {
     "item": "shepherdsdelight:hoglin_sandwich_wrap"
   }

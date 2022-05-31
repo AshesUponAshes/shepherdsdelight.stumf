@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:weeping_loaf"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    {
+      "item": "minecraft:shroomlight"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:shroomlight_sandwich"
+  }
+}

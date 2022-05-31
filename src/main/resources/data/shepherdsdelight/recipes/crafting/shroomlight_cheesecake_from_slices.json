@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AA",
+    "AA"
+  ],
+  "key": {
+    "A": {
+      "item": "shepherdsdelight:shroomlight_cheesecake_slice"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:shroomlight_cheesecake"
+  }
+}

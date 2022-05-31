@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:meat_sauce"
+    },
+    {
+      "tag": "forge:raw_horse"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "farmersdelight:rice"
+    },
+    {
+      "tag": "forge:crops/cabbage"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:steamed_sandwich"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

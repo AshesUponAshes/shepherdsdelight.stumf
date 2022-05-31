@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side": "shepherdsdelight:block/milk_cask_side",
+    "bottom": "shepherdsdelight:block/milk_cask_bottom",
+    "top": "shepherdsdelight:block/blue_milk_cask_top"
+  }
+}

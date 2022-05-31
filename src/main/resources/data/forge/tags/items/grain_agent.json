@@ -3,7 +3,6 @@
   "values": [
     "minecraft:water_bucket",
     "minecraft:milk_bucket",
-    "farmersdelight:milk_bottle",
-    "shepherdsdelight:shroomlight_sauce"
+    "farmersdelight:milk_bottle"
   ]
 }

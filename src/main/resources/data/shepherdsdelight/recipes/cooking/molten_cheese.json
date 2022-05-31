@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "shepherdsdelight:cheese_wedges"
+    },
+    {
+      "tag": "shepherdsdelight:cheese_wedges"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:molten_cheese"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:mushroom_stew"
+    },
+    {
+      "tag": "forge:raw_ghast"
+    },
+    {
+      "item": "shepherdsdelight:ghast_fire_sac"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:firestarter_stew"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

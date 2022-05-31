@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepherdsdelight:raw_goat_leg"
+  },
+  "result": "shepherdsdelight:smoked_goat_leg",
+  "experience": 0.35,
+  "cookingtime": 100
+}

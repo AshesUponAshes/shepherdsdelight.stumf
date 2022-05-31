@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:shroomlight_sauce"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:twisted_chowder"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

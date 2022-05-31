@@ -9,7 +9,7 @@
       "tag": "forge:grain"
     },
     "M": {
-      "item": "minecraft:egg"
+      "tag": "forge:eggs"
     }
   },
   "result": {

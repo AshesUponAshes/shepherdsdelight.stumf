@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "ACA",
+    "BMB"
+  ],
+  "key": {
+    "M": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "A": {
+      "tag": "forge:overworld_mushrooms"
+    },
+    "B": {
+      "item": "shepherdsdelight:blue_cheese_slice"
+    },
+    "C": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:mushroom_pie"
+  }
+}

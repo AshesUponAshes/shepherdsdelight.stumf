@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AAA",
+    "AAA",
+    "BMB"
+  ],
+  "key": {
+    "M": {
+      "item": "farmersdelight:pie_crust"
+    },
+    "A": {
+      "item": "minecraft:sweet_berries"
+    },
+    "B": {
+      "item": "shepherdsdelight:milk_cheese_slice"
+    }
+  },
+  "result": {
+    "item": "farmersdelight:sweet_berry_cheesecake"
+  }
+}

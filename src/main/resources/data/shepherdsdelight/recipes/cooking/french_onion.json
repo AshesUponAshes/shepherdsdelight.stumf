@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:milk_cheese_slice"
+    },
+    {
+      "item": "farmersdelight:onion"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:french_onion"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

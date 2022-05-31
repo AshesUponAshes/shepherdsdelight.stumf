@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepherdsdelight:raw_equin_ribs"
+  },
+  "result": "shepherdsdelight:smoked_ribs",
+  "experience": 0.35,
+  "cookingtime": 100
+}

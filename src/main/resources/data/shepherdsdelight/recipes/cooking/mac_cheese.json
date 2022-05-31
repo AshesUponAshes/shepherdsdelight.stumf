@@ -1,0 +1,19 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:milk_cheese_slice"
+    },
+    {
+      "item": "shepherdsdelight:molten_cheese"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:mac_cheese"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

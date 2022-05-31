@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:brown_mushroom",
+    "minecraft:red_mushroom",
+    "minecraft:red_mushroom_colony",
+    "minecraft:brown_mushroom_colony",
+    "minecraft:mycelium"
+  ]
+}

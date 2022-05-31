@@ -1,0 +1,22 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "shepherdsdelight:red_cheese_slice"
+    },
+    {
+      "item": "shepherdsdelight:molten_cheese"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:nether_pasta"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

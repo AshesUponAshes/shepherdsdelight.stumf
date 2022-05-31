@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "shepherdsdelight:blue_cheese_slice"
+    },
+    {
+      "item": "shepherdsdelight:blue_cheese_slice"
+    },
+    {
+      "tag": "forge:fungus_colonies"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:fungus_fritters"
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}
