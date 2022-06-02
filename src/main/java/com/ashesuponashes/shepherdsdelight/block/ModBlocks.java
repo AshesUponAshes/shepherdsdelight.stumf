@@ -32,19 +32,19 @@ public class ModBlocks {
             () -> new MilkCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> RED_MILK_CASK = registerBlock("red_milk_cask",
-            () -> new RedMilkCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
+            () -> new MilkCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> BLUE_MILK_CASK = registerBlock("blue_milk_cask",
-            () -> new BlueMilkCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
+            () -> new MilkCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> MILK_CHEESE_CASK = registerBlock("milk_cheese_cask",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
+            () -> new CheeseCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> RED_CHEESE_CASK = registerBlock("red_cheese_cask",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
+            () -> new CheeseCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> BLUE_CHEESE_CASK = registerBlock("blue_cheese_cask",
-            () -> new Block(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
+            () -> new CheeseCaskBlock(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2.0F, 3.0F)), ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB);
 
     public static final RegistryObject<Block> MILK_CHEESE = BLOCKS.register("milk_cheese",
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE),  ModItems.MILK_CHEESE_SLICE));
@@ -59,7 +59,7 @@ public class ModBlocks {
             () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.MUSHROOM_PIE_SLICE));
     
     public static final RegistryObject<Block> SHROOMLIGHT_CHEESECAKE = BLOCKS.register("shroomlight_cheesecake",
-            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE), ModItems.SHROOMLIGHT_CHEESECAKE_SLICE));
+            () -> new PieBlock(Block.Properties.copy(Blocks.CAKE).lightLevel(p_60954_ -> 15), ModItems.SHROOMLIGHT_CHEESECAKE_SLICE));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

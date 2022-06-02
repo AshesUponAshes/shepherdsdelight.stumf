@@ -4,15 +4,26 @@ import com.ashesuponashes.shepherdsdelight.util.ShepherdsTags;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.stats.Stats;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.monster.piglin.PiglinAi;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LightLayer;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.entity.BarrelBlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.phys.BlockHitResult;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
+import org.jetbrains.annotations.NotNull;
 
 import java.util.Iterator;
 import java.util.Random;
@@ -25,6 +36,29 @@ public class MilkCaskBlock extends Block {
         this.registerDefaultState((BlockState)super.defaultBlockState().setValue(COMPOSTING, 0));
     }
 
+    @Override
+    public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player, InteractionHand hand, BlockHitResult result) {
+        ItemStack mainHand = player.getItemInHand(hand);
+        if (this == ModBlocks.MILK_CASK.get()) {
+            if (mainHand.is(ShepherdsTags.RED_CHEESE_CRAFT_ITEMS)) {
+                if (!player.isCreative()) {
+                    mainHand.shrink(1);
+                }
+                level.setBlock(pos, ModBlocks.RED_MILK_CASK.get().defaultBlockState(), 2);
+                return InteractionResult.SUCCESS;
+            }
+            if (mainHand.is(ShepherdsTags.BLUE_CHEESE_CRAFT_ITEMS)) {
+                if (!player.isCreative()) {
+                    mainHand.shrink(1);
+                }
+                level.setBlock(pos, ModBlocks.BLUE_MILK_CASK.get().defaultBlockState(), 2);
+                return InteractionResult.SUCCESS;
+            }
+        }
+        return InteractionResult.PASS;
+    }
+
+    @Override
     public boolean isRandomlyTicking(BlockState state) {
         return true;
     }
@@ -38,6 +72,7 @@ public class MilkCaskBlock extends Block {
         return 5;
     }
 
+    @Override
     public void randomTick(BlockState state, ServerLevel worldIn, BlockPos pos, Random random) {
         if (!worldIn.isClientSide) {
             float chance = 0.0F;
@@ -47,8 +82,20 @@ public class MilkCaskBlock extends Block {
             while(var8.hasNext()) {
                 BlockPos neighborPos = (BlockPos)var8.next();
                 BlockState neighborState = worldIn.getBlockState(neighborPos);
-                if (neighborState.m_204336_(ShepherdsTags.MILK_AGING_ACTIVATORS)) {
-                    chance += 0.02F;
+                if (this == ModBlocks.MILK_CASK.get()) {
+                    if (neighborState.is(ShepherdsTags.MILK_AGING_ACTIVATORS)) {
+                        chance += 0.02F;
+                    }
+                }
+                if (this == ModBlocks.BLUE_MILK_CASK.get()) {
+                    if (neighborState.is(ShepherdsTags.MILK_AGING_ACTIVATORS)) {
+                        chance += 0.02F;
+                    }
+                }
+                if (this == ModBlocks.RED_MILK_CASK.get()) {
+                    if (neighborState.is(ShepherdsTags.RED_MILK_AGING_ACTIVATORS)) {
+                        chance += 0.02F;
+                    }
                 }
 
                 int light = worldIn.getBrightness(LightLayer.SKY, neighborPos.above());
@@ -60,7 +107,15 @@ public class MilkCaskBlock extends Block {
             chance += maxLight > 12 ? 0.1F : 0.05F;
             if (worldIn.getRandom().nextFloat() <= chance) {
                 if ((Integer)state.getValue(COMPOSTING) == this.getMaxCompostingStage()) {
-                    worldIn.setBlock(pos, ((Block) ModBlocks.MILK_CHEESE_CASK.get()).defaultBlockState(), 2);
+                    if (this == ModBlocks.MILK_CASK.get()) {
+                        worldIn.setBlock(pos, ModBlocks.MILK_CHEESE_CASK.get().defaultBlockState(), 2);
+                    }
+                    if (this == ModBlocks.RED_MILK_CASK.get()) {
+                        worldIn.setBlock(pos, ModBlocks.RED_CHEESE_CASK.get().defaultBlockState(), 2);
+                    }
+                    if (this == ModBlocks.BLUE_MILK_CASK.get()) {
+                        worldIn.setBlock(pos, ModBlocks.BLUE_CHEESE_CASK.get().defaultBlockState(), 2);
+                    }
                 } else {
                     worldIn.setBlock(pos, (BlockState)state.setValue(COMPOSTING, (Integer)state.getValue(COMPOSTING) + 1), 2);
                 }
@@ -77,6 +132,7 @@ public class MilkCaskBlock extends Block {
         return this.getMaxCompostingStage() + 1 - (Integer)blockState.getValue(COMPOSTING);
     }
 
+    @Override
     @OnlyIn(Dist.CLIENT)
     public void animateTick(BlockState stateIn, Level worldIn, BlockPos pos, Random rand) {
         super.animateTick(stateIn, worldIn, pos, rand);
