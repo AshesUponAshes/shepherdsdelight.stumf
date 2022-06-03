@@ -129,7 +129,6 @@ public class ModItems {
     public static final RegistryObject<Item> NETHER_PASTA = ITEMS.register("nether_pasta",
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(ModFoods.NETHER_PASTA)));
 
-
     public static final RegistryObject<Item> MOZZASTICKS = ITEMS.register("mozzasticks",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).food(ModFoods.MOZZASTICKS)));
 

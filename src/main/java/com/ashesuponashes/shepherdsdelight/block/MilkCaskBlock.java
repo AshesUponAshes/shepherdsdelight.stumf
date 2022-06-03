@@ -29,11 +29,11 @@ import java.util.Iterator;
 import java.util.Random;
 
 public class MilkCaskBlock extends Block {
-    public static IntegerProperty COMPOSTING = IntegerProperty.create("composting", 0, 5);
+    public static IntegerProperty AGING = IntegerProperty.create("aging", 0, 5);
 
     public MilkCaskBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState((BlockState)super.defaultBlockState().setValue(COMPOSTING, 0));
+        this.registerDefaultState((BlockState)super.defaultBlockState().setValue(AGING, 0));
     }
 
     @Override
@@ -64,7 +64,7 @@ public class MilkCaskBlock extends Block {
     }
 
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(new Property[]{COMPOSTING});
+        builder.add(new Property[]{AGING});
         super.createBlockStateDefinition(builder);
     }
 
@@ -104,9 +104,9 @@ public class MilkCaskBlock extends Block {
                 }
             }
 
-            chance += maxLight > 12 ? 0.1F : 0.05F;
+            chance += maxLight < 6 ? 0.1F : 0.05F;
             if (worldIn.getRandom().nextFloat() <= chance) {
-                if ((Integer)state.getValue(COMPOSTING) == this.getMaxCompostingStage()) {
+                if ((Integer)state.getValue(AGING) == this.getMaxCompostingStage()) {
                     if (this == ModBlocks.MILK_CASK.get()) {
                         worldIn.setBlock(pos, ModBlocks.MILK_CHEESE_CASK.get().defaultBlockState(), 2);
                     }
@@ -117,7 +117,7 @@ public class MilkCaskBlock extends Block {
                         worldIn.setBlock(pos, ModBlocks.BLUE_CHEESE_CASK.get().defaultBlockState(), 2);
                     }
                 } else {
-                    worldIn.setBlock(pos, (BlockState)state.setValue(COMPOSTING, (Integer)state.getValue(COMPOSTING) + 1), 2);
+                    worldIn.setBlock(pos, (BlockState)state.setValue(AGING, (Integer)state.getValue(AGING) + 1), 2);
                 }
             }
 
@@ -129,7 +129,7 @@ public class MilkCaskBlock extends Block {
     }
 
     public int getAnalogOutputSignal(BlockState blockState, Level worldIn, BlockPos pos) {
-        return this.getMaxCompostingStage() + 1 - (Integer)blockState.getValue(COMPOSTING);
+        return this.getMaxCompostingStage() + 1 - (Integer)blockState.getValue(AGING);
     }
 
     @Override

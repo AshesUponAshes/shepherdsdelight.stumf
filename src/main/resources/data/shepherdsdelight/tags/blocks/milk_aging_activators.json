@@ -3,8 +3,8 @@
   "values": [
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
-    "minecraft:red_mushroom_colony",
-    "minecraft:brown_mushroom_colony",
+    "farmersdelight:red_mushroom_colony",
+    "farmersdelight:brown_mushroom_colony",
     "minecraft:mycelium"
   ]
 }
