@@ -107,6 +107,8 @@ public class ModItems {
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(ModFoods.FRENCH_ONION)));
     public static final RegistryObject<Item> MAC_CHEESE = ITEMS.register("mac_cheese",
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(ModFoods.MAC_CHEESE)));
+    public static final RegistryObject<Item> POUTINE = ITEMS.register("poutine",
+            () -> new ConsumableItem(new Item.Properties().food(ModFoods.POUTINE).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB)));
     public static final RegistryObject<Item> FIRESTARTER_STEW = ITEMS.register("firestarter_stew",
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(ModFoods.FIRESTARTER_STEW)));
     public static final RegistryObject<Item> TWISTED_CHOWDER = ITEMS.register("twisted_chowder",
@@ -120,8 +122,6 @@ public class ModItems {
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.STEAK_PLATTER).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB)));
     public static final RegistryObject<Item> FUNGUS_FRITTERS = ITEMS.register("fungus_fritters",
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.FUNGUS_FRITTERS).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB)));
-    public static final RegistryObject<Item> POUTINE = ITEMS.register("poutine",
-            () -> new ConsumableItem(new Item.Properties().food(ModFoods.POUTINE).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB)));
     public static final RegistryObject<Item> SHROOMLIGHT_NUGGETS = ITEMS.register("shroomlight_nuggets",
             () -> new ConsumableItem(new Item.Properties().food(ModFoods.SHROOMLIGHT_NUGGETS).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB)));
     public static final RegistryObject<Item> SAUSAGE_WARTS_PASTA = ITEMS.register("sausage_warts_pasta",

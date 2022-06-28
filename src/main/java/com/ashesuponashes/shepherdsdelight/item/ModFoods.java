@@ -59,13 +59,13 @@ public class ModFoods {
     public static final FoodProperties SALAD_CURDS = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).build();
     public static final FoodProperties LLAMA_STEW = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.8F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties LLAMA_BURGER = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.7F).effect(() -> new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, MEDIUM_DURATION, 0), 1.0F).build();
-    public static final FoodProperties FUNGUS_FRITTERS = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.6F).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 800, 0), 1.0F).build();
-    public static final FoodProperties POUTINE = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.8F).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), LONG_DURATION, 0), 1.0F).build();
+    public static final FoodProperties FUNGUS_FRITTERS = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.8F).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).effect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 800, 0), 1.0F).build();
+    public static final FoodProperties POUTINE = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.6F).effect(() -> new MobEffectInstance(MobEffects.REGENERATION, 100, 0), 1.0F).build();
     public static final FoodProperties MOZZASTICKS = (new FoodProperties.Builder()).nutrition(6).saturationMod(0.5F).build();
     public static final FoodProperties FRENCH_ONION = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.6F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
     public static final FoodProperties CHEESECAKE_SLICE = (new FoodProperties.Builder().fast()).nutrition(3).saturationMod(0.4F).effect(() -> new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 600, 0), 1.0F).build();
     public static final FoodProperties EQUIN_NOODLES = (new FoodProperties.Builder()).nutrition(10).saturationMod(0.7F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), LONG_DURATION, 0), 1.0F).build();
-    public static final FoodProperties NETHER_PASTA = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.7F).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).effect(new MobEffectInstance(MobEffects.CONFUSION, 800, 0), 0.2F).build();
+    public static final FoodProperties NETHER_PASTA = (new FoodProperties.Builder()).nutrition(12).saturationMod(0.7F).effect(() -> new MobEffectInstance(ModEffects.NOURISHMENT.get(), MEDIUM_DURATION, 0), 1.0F).effect(new MobEffectInstance(MobEffects.CONFUSION, 200, 0), 0.3F).build();
     public static final FoodProperties MAC_CHEESE = (new FoodProperties.Builder()).nutrition(8).saturationMod(0.5F).effect(() -> new MobEffectInstance(ModEffects.COMFORT.get(), MEDIUM_DURATION, 0), 1.0F).build();
 
 }
