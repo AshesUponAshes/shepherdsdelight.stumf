@@ -13,7 +13,7 @@
       "item": "minecraft:sweet_berries"
     },
     "B": {
-      "item": "shepherdsdelight:milk_cheese_slice"
+      "tag": "forge:cheese_wedges"
     }
   },
   "result": {
