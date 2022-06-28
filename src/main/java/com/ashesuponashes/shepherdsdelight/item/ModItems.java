@@ -2,9 +2,7 @@ package com.ashesuponashes.shepherdsdelight.item;
 
 import com.ashesuponashes.shepherdsdelight.block.ModBlocks;
 import com.ashesuponashes.shepherdsdelight.shepherdsdelight;
-import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.eventbus.api.IEventBus;

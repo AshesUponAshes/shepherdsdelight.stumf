@@ -2,10 +2,10 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "tag": "shepherdsdelight:cheese_wedges"
+      "tag": "forge:cheese_wedges"
     },
     {
-      "tag": "shepherdsdelight:cheese_wedges"
+      "tag": "forge:cheese_wedges"
     }
   ],
   "result": {
