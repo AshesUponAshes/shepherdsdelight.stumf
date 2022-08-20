@@ -1,0 +1,29 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "minecraft:warped_fungus"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    },
+    {
+      "item": "minecraft:twisting_vines"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:twisted_rum"
+  },
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "liquid": {
+    "item": "minecraft:mushroom_stew"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 4
+}

@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:cooked_fugu"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "shepherdsdelight:cooked_fugu_cut",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:salad_ingredients/cabbage"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "tag": "forge:raw_pufferfish"
+    },
+    {
+      "tag": "forge:raw_pufferfish"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:pufferfish_salad"
+  }
+}

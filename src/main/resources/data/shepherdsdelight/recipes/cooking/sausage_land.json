@@ -1,0 +1,20 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "shepherdsdelight:sausage_ingredients_land"
+    },
+    {
+      "tag": "shepherdsdelight:sausage_ingredients_land"
+    },
+    {
+      "tag": "shepherdsdelight:sausage_ingredients_land"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:sausage",
+    "count": 2
+  },
+  "experience": 0.2,
+  "cookingtime": 200
+}

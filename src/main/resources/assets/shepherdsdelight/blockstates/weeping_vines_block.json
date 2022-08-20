@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "shepherdsdelight:block/weeping_vines_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "shepherdsdelight:block/weeping_vines_block"
+    },
+    "axis=z": {
+      "model": "shepherdsdelight:block/weeping_vines_block_horizontal",
+      "x": 90
+    }
+  }
+}

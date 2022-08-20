@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "M M",
+    "wMw",
+    " w "
+  ],
+  "key": {
+    "M": {
+      "item": "farmersdelight:rice"
+    },
+    "w": {
+      "tag": "forge:raw_meat"
+    }
+  },
+  "result": {
+    "item": "shepherdsdelight:raw_meatloaf"
+  }
+}

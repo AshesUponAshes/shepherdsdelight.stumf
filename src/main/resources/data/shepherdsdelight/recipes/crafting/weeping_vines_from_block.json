@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:weeping_vines_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:weeping_vines",
+    "count": 9
+  }
+}

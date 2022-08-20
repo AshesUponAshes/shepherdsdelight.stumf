@@ -1,12 +1,10 @@
 package com.ashesuponashes.shepherdsdelight.event;
 
-import com.ashesuponashes.shepherdsdelight.event.interact.MilkableLlama;
 import com.ashesuponashes.shepherdsdelight.event.loot.EquinHorseAdditionModifier;
 import com.ashesuponashes.shepherdsdelight.event.loot.EquinRibsHorseAdditionModifier;
-import com.ashesuponashes.shepherdsdelight.shepherdsdelight;
 import com.ashesuponashes.shepherdsdelight.event.loot.RawCharqueFromLlamaAdditionModifier;
+import com.ashesuponashes.shepherdsdelight.shepherdsdelight;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.loot.GlobalLootModifierSerializer;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;

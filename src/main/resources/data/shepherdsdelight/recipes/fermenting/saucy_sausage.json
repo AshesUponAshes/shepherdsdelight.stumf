@@ -1,0 +1,27 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:smoked_sausage"
+    },
+    {
+      "item": "shepherdsdelight:smoked_sausage"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:warped_roots"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:saucy_sausage",
+    "count": 2
+  },
+  "liquid": {
+    "item": "minecraft:shroomlight"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 3
+}

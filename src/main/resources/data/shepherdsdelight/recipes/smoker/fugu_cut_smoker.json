@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "shepherdsdelight:cured_pufferfish_cut"
+  },
+  "result": "shepherdsdelight:cooked_fugu_cut",
+  "experience": 0.35,
+  "cookingtime": 100
+}

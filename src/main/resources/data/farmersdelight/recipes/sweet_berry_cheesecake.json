@@ -13,7 +13,7 @@
       "item": "minecraft:sweet_berries"
     },
     "B": {
-      "tag": "forge:cheese_wedges"
+      "item": "brewinandchewin:flaxen_cheese_wedge"
     }
   },
   "result": {

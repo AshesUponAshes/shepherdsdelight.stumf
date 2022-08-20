@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#forge:raw_horse",
-    "#forge:raw_llama"
+    "#forge:raw_llama",
+    "#forge:raw_pufferfish"
   ]
 }

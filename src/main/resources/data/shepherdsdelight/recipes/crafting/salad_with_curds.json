@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "shepherdsdelight:milk_cheese_slice"
+      "item": "brewinandchewin:flaxen_cheese_wedge"
     },
     {
       "tag": "forge:salad_ingredients/cabbage"

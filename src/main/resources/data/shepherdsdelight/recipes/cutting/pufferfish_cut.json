@@ -1,0 +1,17 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:cured_pufferfish"
+    }
+  ],
+  "tool": {
+    "tag": "forge:tools/knives"
+  },
+  "result": [
+    {
+      "item": "shepherdsdelight:cured_pufferfish_cut",
+      "count": 2
+    }
+  ]
+}

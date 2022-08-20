@@ -2,7 +2,6 @@
   "replace": false,
   "values": [
     "shepherdsdelight:weeping_loaf",
-    "farmersdelight:wheat_dough",
-    "farmersdelight:rice"
+    "farmersdelight:wheat_dough"
   ]
 }

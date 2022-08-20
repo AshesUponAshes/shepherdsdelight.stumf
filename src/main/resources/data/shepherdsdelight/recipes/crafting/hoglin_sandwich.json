@@ -5,16 +5,16 @@
       "item": "shepherdsdelight:weeping_loaf"
     },
     {
-      "item": "shepherdsdelight:molten_cheese"
-    },
-    {
-      "item": "shepherdsdelight:red_cheese_slice"
+      "item": "brewinandchewin:scarlet_cheese_wedge"
     },
     {
       "item": "minecraft:nether_wart"
     },
     {
-      "tag": "forge:raw_pork"
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "nethersdelight:hoglin_loin"
     },
     {
       "item": "shepherdsdelight:shroomlight_sauce"

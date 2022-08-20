@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "side": "shepherdsdelight:block/binded_weeping_vines",
+    "end": "shepherdsdelight:block/binded_weeping_vines_top"
+  }
+}

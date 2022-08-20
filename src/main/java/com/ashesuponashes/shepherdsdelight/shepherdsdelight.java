@@ -1,8 +1,7 @@
 package com.ashesuponashes.shepherdsdelight;
 
-import com.ashesuponashes.shepherdsdelight.block.ModBlocks;
-import com.ashesuponashes.shepherdsdelight.item.ModItems;
-import net.minecraft.world.level.block.Block;
+import com.ashesuponashes.shepherdsdelight.block.SDBlocks;
+import com.ashesuponashes.shepherdsdelight.item.SDItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -25,9 +24,8 @@ public class shepherdsdelight {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
-        ModBlocks.register(eventBus);
-
+        SDItems.register(eventBus);
+        SDBlocks.register(eventBus);
         eventBus.addListener(this::setup);
 
         // Register ourselves for server and other game events we are interested in

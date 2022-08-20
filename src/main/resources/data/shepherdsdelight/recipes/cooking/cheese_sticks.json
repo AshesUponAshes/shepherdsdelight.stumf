@@ -2,13 +2,10 @@
   "type": "farmersdelight:cooking",
   "ingredients": [
     {
-      "item": "shepherdsdelight:blue_cheese_slice"
+      "item": "brewinandchewin:flaxen_cheese_wedge"
     },
     {
-      "tag": "forge:milk"
-    },
-    {
-      "tag": "forge:eggs"
+      "tag": "forge:grains"
     }
   ],
   "result": {

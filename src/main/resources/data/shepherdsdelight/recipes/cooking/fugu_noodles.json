@@ -1,0 +1,25 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "forge:cooked_pufferfish"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "farmersdelight:raw_pasta"
+    },
+    {
+      "item": "farmersdelight:onion"
+    },
+    {
+      "item": "farmersdelight:cabbage_seeds"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:fugu_noodles"
+  },
+  "experience": 0.1,
+  "cookingtime": 100
+}

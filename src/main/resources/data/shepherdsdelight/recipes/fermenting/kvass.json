@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:crimson_ale"
+  },
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "liquid": {
+    "item": "minecraft:shroomlight"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 3
+}

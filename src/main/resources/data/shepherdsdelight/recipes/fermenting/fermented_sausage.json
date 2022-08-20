@@ -1,0 +1,21 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "shepherdsdelight:sausage"
+    },
+    {
+      "item": "shepherdsdelight:sausage"
+    },
+    {
+      "item": "shepherdsdelight:sausage"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:fermented_sausage",
+    "count": 3
+  },
+  "temperature": 3,
+  "experience": 0.35,
+  "cookingtime": 200
+}

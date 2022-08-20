@@ -1,0 +1,16 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "minecraft:pufferfish"
+    }
+  ],
+  "tool": {
+    "item": "minecraft:shears"
+  },
+  "result": [
+    {
+      "item": "shepherdsdelight:cured_pufferfish"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type": "brewinandchewin:fermenting",
+  "ingredients": [
+    {
+      "item": "nethersdelight:propelpearl"
+    },
+    {
+      "item": "nethersdelight:propelplant_cane"
+    },
+    {
+      "item": "minecraft:weeping_vines"
+    }
+  ],
+  "result": {
+    "item": "shepherdsdelight:fireball"
+  },
+  "container": {
+    "item": "brewinandchewin:tankard"
+  },
+  "liquid": {
+    "item": "shepherdsdelight:crimson_ale"
+  },
+  "experience": 0.6,
+  "cookingtime": 12000,
+  "temperature": 5
+}

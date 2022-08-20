@@ -18,7 +18,7 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 apply plugin: "org.spongepowered.mixin"
 
-version = '1.18.2_1.0'
+version = '1.18.2_0.2'
 group = 'com.ashesuponashes.shepherdsdelight' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'shepherdsdelight'
 
@@ -167,8 +167,9 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.18.2-40.0.19'
+    minecraft 'net.minecraftforge:forge:1.18.2-40.1.68'
     implementation fg.deobf("curse.maven:farmersdelight-398521:3739914")
+    implementation fg.deobf("curse.maven:BrewinAndChewin-637808:3854764")
     // compile against the JEI API but do not include it at runtime
     compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.0.180:api")
     // at runtime, use the full JEI jar

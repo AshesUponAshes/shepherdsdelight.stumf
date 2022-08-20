@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "shepherdsdelight:molten_cheese"
+      "item": "brewinandchewin:flaxen_cheese_wedge"
     },
     {
       "tag": "forge:cooked_llama"
