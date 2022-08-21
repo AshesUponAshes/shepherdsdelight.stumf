@@ -2,13 +2,13 @@
   "type": "brewinandchewin:fermenting",
   "ingredients": [
     {
-      "item": "shepherdsdelight:sausage"
+      "item": "shepherdsdelight:smoked_sausage"
     },
     {
-      "item": "shepherdsdelight:sausage"
+      "item": "shepherdsdelight:smoked_sausage"
     },
     {
-      "item": "shepherdsdelight:sausage"
+      "item": "shepherdsdelight:smoked_sausage"
     }
   ],
   "result": {

@@ -135,14 +135,14 @@ public class SDItems {
             () -> new ConsumableItem(new Item.Properties().food(SDFoods.CHARQUE_CACTUS_ROAST).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB), true));
     public static final RegistryObject<Item> STEAK_PLATTER = ITEMS.register("steak_platter",
             () -> new ConsumableItem(new Item.Properties().food(SDFoods.STEAK_PLATTER).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB), true));
+    public static final RegistryObject<Item> FUGU_NOODLES = ITEMS.register("fugu_noodles",
+            () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(SDFoods.FUGU_NOODLES), true));
     public static final RegistryObject<Item> SHROOMLIGHT_NUGGETS = ITEMS.register("shroomlight_nuggets",
             () -> new ConsumableItem(new Item.Properties().food(SDFoods.SHROOMLIGHT_NUGGETS).stacksTo(16).craftRemainder(Items.BOWL).tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB), true));
     public static final RegistryObject<Item> SAUSAGE_WARTS_PASTA = ITEMS.register("sausage_warts_pasta",
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(SDFoods.SAUSAGE_WARTS_PASTA), true));
     public static final RegistryObject<Item> NETHER_PASTA = ITEMS.register("nether_pasta",
             () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(SDFoods.NETHER_PASTA), true));
-    public static final RegistryObject<Item> FUGU_NOODLES = ITEMS.register("fugu_noodles",
-            () -> new ConsumableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.BOWL).food(SDFoods.FUGU_NOODLES), true));
 
     public static final RegistryObject<Item> BONE_BROTH_TEA = ITEMS.register("bone_broth_tea",
             () -> new DrinkableItem(new Item.Properties().tab(ModCreativeModeTab.SHEPHERDS_DELIGHT_TAB).stacksTo(16).craftRemainder(Items.GLASS_BOTTLE).food(SDFoods.BONE_BROTH), true, false));
@@ -162,8 +162,6 @@ public class SDItems {
 
     public static final RegistryObject<Item> SD_LOGO = ITEMS.register("sd_logo",
             () -> new Item(new Item.Properties()));
-
-
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
