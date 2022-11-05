@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "AAA",
     "DDD",
+    "DAD",
     "CBC"
   ],
   "key": {
     "A": {
-      "item": "shepherdsdelight:shroomlight_sauce"
+      "item": "minecraft:shroomlight"
     },
     "B": {
       "item": "farmersdelight:pie_crust"

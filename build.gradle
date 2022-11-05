@@ -170,6 +170,7 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.18.2-40.1.68'
     implementation fg.deobf("curse.maven:farmersdelight-398521:3739914")
     implementation fg.deobf("curse.maven:BrewinAndChewin-637808:3854764")
+    implementation fg.deobf("curse.maven:nethersdelight-496394:3756127")
     implementation fg.deobf("curse.maven:AppleSkin-248787:3927564")
     // compile against the JEI API but do not include it at runtime
     compileOnly fg.deobf("mezz.jei:jei-1.18.2:9.7.0.180:api")

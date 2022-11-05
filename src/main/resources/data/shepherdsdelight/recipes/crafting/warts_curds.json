@@ -2,16 +2,16 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "shepherdsdelight:shroomlight_sauce"
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:nether_wart"
     },
     {
       "item": "brewinandchewin:scarlet_cheese_wedge"
     },
     {
-      "item": "minecraft:nether_wart"
-    },
-    {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:warped_roots"
     },
     {
       "item": "minecraft:bowl"
